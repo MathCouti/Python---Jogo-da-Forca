@@ -1,0 +1,62 @@
+import random
+
+class Palavras():
+
+    numrand = random.randint(0, 62)
+    palavra_dica = [
+    {"palavra": "gato", "dica": "animal de estimação"},
+    {"palavra": "cachorro", "dica": "animal de estimação"},
+    {"palavra": "papagaio", "dica": "ave"},
+    {"palavra": "banana", "dica": "fruta"},
+    {"palavra": "computador", "dica": "eletrônico"},
+    {"palavra": "praia", "dica": "lugar para relaxar"},
+    {"palavra": "futebol", "dica": "esporte"},
+    {"palavra": "amigo", "dica": "pessoa querida"},
+    {"palavra": "família", "dica": "árvore genealógica"},
+    {"palavra": "viagem", "dica": "atividade de lazer"},
+    {"palavra": "livro", "dica": "Possui histórias"},
+    {"palavra": "música", "dica": "forma de arte"},
+    {"palavra": "cinema", "dica": "lugar para ver filmes"},
+    {"palavra": "jardim", "dica": "lugar para plantar"},
+    {"palavra": "café", "dica": "bebida quente"},
+    {"palavra": "pizza", "dica": "comida italiana"},
+    {"palavra": "bicicleta", "dica": "meio de transporte"},
+    {"palavra": "pintura", "dica": "forma de arte"},
+    {"palavra": "chuva", "dica": "fenômeno natural"},
+    {"palavra": "sol", "dica": "Fora da Terra"},
+    {"palavra": "montanha", "dica": "elevação natural da terra"},
+    {"palavra": "camiseta", "dica": "peça de roupa"},
+    {"palavra": "fogo", "dica": "reação química que produz luz e calor"},
+    {"palavra": "piano", "dica": "instrumento musical de cordas percutidas"},
+    {"palavra": "casa", "dica": "lugar onde se mora"},
+    {"palavra": "relógio", "dica": "mostra a hora"},
+    {"palavra": "carro", "dica": "meio de transporte"},
+    {"palavra": "fotografia", "dica": "arte de capturar imagens"},
+    {"palavra": "televisão", "dica": "aparelho eletrônico que transmite imagens"},
+    {"palavra": "dinheiro", "dica": "meio de troca"},
+    {"palavra": "telefone", "dica": "aparelho eletrônico que faz ligações"},
+    {"palavra": "mar", "dica": "extensão de água salgada"},
+    {"palavra": "alimentação", "dica": "Essencial para viver"},
+    {"palavra": "rosa", "dica": "flor"},
+    {"palavra": "carro", "dica": "meio de transporte"},
+    {"palavra": "avião", "dica": "meio de transporte"},
+    {"palavra": "barco", "dica": "meio de transporte"},
+    {"palavra": "ônibus", "dica": "meio de transporte"},
+    {"palavra": "trem", "dica": "meio de transporte"},
+    {"palavra": "bicicleta", "dica": "meio de transporte"},
+    {"palavra": "celular", "dica": "eletrônico"},        {"palavra": "televisão", "dica": "eletrônico"},    {"palavra": "geladeira", "dica": "eletrodoméstico"},
+    {"palavra": "microondas", "dica": "eletrodoméstico"},
+    {"palavra": "panela", "dica": "utensílio de cozinha"},
+    {"palavra": "tesoura", "dica": "utensílio de corte"},
+    {"palavra": "cadeira", "dica": "móvel"},    {"palavra": "sofá", "dica": "móvel"},    {"palavra": "cadeado", "dica": "objeto de segurança"},    {"palavra": "relógio", "dica": "objeto"},
+    {"palavra": "óculos", "dica": "acessório"},    {"palavra": "aneis", "dica": "joia"},
+    {"palavra": "brincos", "dica": "joia"},    {"palavra": "pulseira", "dica": "joia"},    {"palavra": "carteira", "dica": "acessório"},    {"palavra": "chave", "dica": "fechadura"},
+    {"palavra": "travesseiro", "dica": "Cama"},
+    {"palavra": "lençol", "dica": "objeto de cama"},    {"palavra": "manta", "dica": "para se aquecer"},
+    {"palavra": "guarda-chuva", "dica": "objeto para se proteger da chuva"},
+    {"palavra": "espelho", "dica": "objeto para se ver"},
+    {"palavra": "escova de cabelo", "dica": "objeto para cuidar dos cabelos"}]
+
+    palavra_original = palavra_dica[numrand]["palavra"]
+    palavra = palavra_dica[numrand]["palavra"]
+    dica = palavra_dica[numrand]["dica"]
